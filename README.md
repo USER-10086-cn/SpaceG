@@ -11,11 +11,11 @@
 
 - 硬件平台：[龙邱龙芯2k301核心板](https://item.taobao.com/item.htm?id=1010690276497)
 
-
+<img src="./MD_Image/image-%E9%BE%99%E8%8A%AF2k0301.png" alt="e623eb8145ee0237196290a5153ee2e1" style="zoom: 15%;" />
 
 如需了解龙芯久久派拓展版相关信息，可点击链接：[龙芯久久派拓展板](https://item.taobao.com/item.htm?id=1010690276497)了解详情。
 
-
+<img src="./MD_Image/image-2K301%E6%8B%93%E5%B1%95%E6%9D%BF.png" alt="4d1821901fe89cf6e3704ac20d2f5be4" style="zoom:35%;" />
 
 - 开发及编辑环境 `Ubuntu`+`VScode 1.93` 以上
 
