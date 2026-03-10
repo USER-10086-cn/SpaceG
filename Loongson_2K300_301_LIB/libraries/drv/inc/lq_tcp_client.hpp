@@ -22,7 +22,7 @@ public:
     lq_tcp_client(const lq_tcp_client &_other) noexcept;            // 复制构造函数
     lq_tcp_client &operator=(const lq_tcp_client &_other) noexcept; // 赋值运算符重载
 
-    ~lq_tcp_client();
+    ~lq_tcp_client() noexcept;                              // 析构函数
 
 public:
     void tcp_client_init(const std::string _ip, uint16_t _port);    // 初始化TCP客户端

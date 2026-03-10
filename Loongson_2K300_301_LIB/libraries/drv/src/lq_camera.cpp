@@ -45,6 +45,7 @@ lq_camera::~lq_camera()
 bool lq_camera::open(uint16_t _width, uint16_t _height, uint16_t _fps)
 {
     std::lock_guard<std::mutex> lock(this->mtx);
+#if LQ_OPENCV_AVAILABLE
     // 关闭已打开的摄像头
     if (this->is_open)
     {
@@ -84,6 +85,9 @@ bool lq_camera::open(uint16_t _width, uint16_t _height, uint16_t _fps)
     // 设置摄像头状态
     this->is_open = true;
     lq_log_info("Camera opened successfully (dev_id:%d, %ux%u@%ufps)", this->dev_id, this->width, this->height, this->fps);
+#else
+    lq_log_error("Opencv 库未加载!\n");
+#endif
     return true;
 }
 

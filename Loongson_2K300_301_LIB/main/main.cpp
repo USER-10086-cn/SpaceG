@@ -2,6 +2,12 @@
 
 int main()
 {
-    lq_ncnn_photo_demo();
+    lq_icm42688_demo();
+
+    while (1)
+    {
+        sleep(1);
+    }
+
     return 0;
 }

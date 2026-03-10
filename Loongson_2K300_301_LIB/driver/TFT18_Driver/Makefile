@@ -1,5 +1,5 @@
-# ���ļ���ֻ��Ҫ�޸� KDIR ��·����ָ��һ���ں˸�Ŀ¼��·��
-KDIR:=/home/lq/Desktop/Loong_vmlinuz/修复WIFI/linux-4.19-loongson-embeded
+# 本文件中只需要修改 KDIR 的路径，指向一个内核根目录的路径
+KDIR?=/home/linux/Desktop/linux-4.19-loongson-embeded
 ARCH=loongarch
 CROSS_COMPILE=loongarch64-linux-gnu-
 PWD?=$(shell pwd)
@@ -14,21 +14,34 @@ EXTRA_CFLAGS += -I$(PWD)/$(INCLUDE)/
 obj-m += TFT18_dev.o
 obj-m += TFT18_dri.o
 
-all: clean prepare compile organize
+all: prepare compile move_files
+	@echo "✅ \033[32m编译完成! ko模块在 $(KO_DIR) 目录, 中间文件在 $(BUILD_DIR) 目录\033[0m"
 
+# 提前创建目录
 prepare:
-	@mkdir -p $(KO_DIR) 2>/dev/null || true
-	@mkdir -p $(BUILD_DIR) 2>/dev/null || true
+	@mkdir -p $(BUILD_DIR) $(KO_DIR)
+	@echo "📂 \033[32m已创建目录\033[0m"
 
+# 编译模块
 compile:
-	make -C $(KDIR) M=$(PWD) modules
+	make -C $(KDIR) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) M=$(PWD) modules
 
-organize:
-	@find . -path ./$(BUILD_DIR) -prune                 \
-	        -o -type f ! -name '*.c' ! -name '*.h'      \
-		    ! -name 'Makefile' ! -name '*.ko' -exec rm -f {} \;
-	@find . -path ./$(BUILD_DIR) -prune -o -type f -name '*.mod.c' -exec mv {} $(BUILD_DIR) \;
-	@find . -path ./$(KO_DIR) -prune -o -type f -name '*.ko' -exec mv {} $(KO_DIR) \;
-	@rm -f *.o *.mod.o .*.cmd
+# 移动文件
+move_files:
+# 移动中间文件（.o/.mod.o/.mod.c/.cmd等）到build目录
+	@find . -type f \
+		-not -path "./$(BUILD_DIR)/*" -not -path "./$(KO_DIR)/*" \
+		\( -name '*.o' -o -name '*.mod.o' -o -name '*.mod.c' -o -name '.*.cmd' -o -name 'modules.order' -o -name 'Module.symvers' \) \
+		! -name '*.ko' -exec mv -t $(BUILD_DIR)/ {} +
+# 移动 ko 模块到 ko 目录
+	@find . -type f \
+		-not -path "./$(BUILD_DIR)/*" -not -path "./$(KO_DIR)/*" \
+		-name '*.ko' -exec mv -t $(KO_DIR)/ {} +
+# 清理残留的临时文件
+	@rm -rf .tmp_versions $(SRC_DIR)/.tmp_versions
+
+# 清理目标
 clean:
-	rm $(BUILD_DIR)/* $(BUILD_DIR)/.*.cmd $(BUILD_DIR)/.LQ* $(KO_DIR)/* .tmp* -rf
+	@rm -rf $(BUILD_DIR) .tmp_versions $(SRC_DIR)/.tmp_versions
+	@rm -f *.o *.mod.o *.mod.c *.ko modules.order Module.symvers .*.cmd
+	@echo "已清理所有编译产物"

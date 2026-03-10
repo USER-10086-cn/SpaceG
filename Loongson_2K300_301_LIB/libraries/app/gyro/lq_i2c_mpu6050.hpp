@@ -7,8 +7,10 @@
  * @brief   宏定义
  ****************************************************************************************************/
 
+#define MPU6050_DEV_NAME        ( "/dev/lq_i2c_mpu6050" )
+
 // MPU6050 相关幻数号
-#define I2C_MPU6050_MAGIC       'm'                         // 自定义幻数号，用于区分不同的设备驱动
+#define I2C_MPU6050_MAGIC       'i'                         // 自定义幻数号，用于区分不同的设备驱动
 #define I2C_GET_MPU6050_ID      _IO(I2C_MPU6050_MAGIC, 1)   // 获取 MPU6050 ID
 #define I2C_GET_MPU6050_TEM     _IO(I2C_MPU6050_MAGIC, 2)   // 获取 MPU6050 温度
 #define I2C_GET_MPU6050_ANG     _IO(I2C_MPU6050_MAGIC, 3)   // 获取 MPU6050 角度值
@@ -25,10 +27,10 @@
 class lq_i2c_mpu6050 : public lq_i2c_devs
 {
 public:
-    lq_i2c_mpu6050(const std::string _dev_path);                // 有参构造函数
-    lq_i2c_mpu6050(const lq_i2c_mpu6050&) = delete;             // 禁用拷贝构造函数
-    lq_i2c_mpu6050& operator=(const lq_i2c_mpu6050&) = delete;  // 禁用赋值运算符
-    ~lq_i2c_mpu6050();                                          // 析构函数
+    lq_i2c_mpu6050(const std::string _dev_path = MPU6050_DEV_NAME); // 有参构造函数
+    lq_i2c_mpu6050(const lq_i2c_mpu6050&) = delete;                 // 禁用拷贝构造函数
+    lq_i2c_mpu6050& operator=(const lq_i2c_mpu6050&) = delete;      // 禁用赋值运算符
+    ~lq_i2c_mpu6050();                                              // 析构函数
 
 public:
     uint8_t get_mpu6050_id();      // 获取 MPU6050 ID

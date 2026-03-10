@@ -6,5 +6,6 @@
 #include "lq_types.hpp"
 #include "lq_utils.hpp"
 #include "lq_i2c_dev.hpp"
+#include "lq_assert.hpp"
 
 #endif

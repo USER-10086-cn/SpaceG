@@ -169,6 +169,69 @@ ssize_t lq_udp_client::udp_recv(void *_buf, size_t _len)
 }
 
 /********************************************************************************
+ * @brief   发送字符串.
+ * @param   _str : 要发送的字符串.
+ * @return  ssize_t, 发送数据字节数, 失败返回负数值.
+ * @example MyClient.udp_send_string("Hello");
+ * @note    none.
+ ********************************************************************************/
+ssize_t lq_udp_client::udp_send_string(const std::string &_str)
+{
+    return this->udp_send(_str.c_str(), _str.length());
+}
+
+#ifdef LQ_HAVE_OPENCV
+/********************************************************************************
+ * @brief   发送图片（OpenCV图像）.
+ * @param   _img       : 要发送的OpenCV图像.
+ * @param   _quality   : JPEG编码质量 (1-100), 默认80.
+ * @return  ssize_t, 发送数据字节数, 失败返回负数值.
+ * @example MyClient.udp_send_image(img, 80);
+ * @note    图片会被编码为JPEG格式发送，协议格式：4字节长度+JPEG数据
+ ********************************************************************************/
+ssize_t lq_udp_client::udp_send_image(const cv::Mat &_img, int _quality)
+{
+    // 检查图像是否有效
+    if (_img.empty()) {
+        lq_log_error("Image is empty");
+        return -1;
+    }
+
+    // 编码为JPEG
+    std::vector<uint8_t> jpeg_buf;
+    std::vector<int> params = {cv::IMWRITE_JPEG_QUALITY, _quality};
+
+    if (!cv::imencode(".jpg", _img, jpeg_buf, params)) {
+        lq_log_error("JPEG encoding failed");
+        return -2;
+    }
+
+    // 发送长度（4字节）
+    uint32_t data_len = jpeg_buf.size();
+    uint8_t len_buf[4];
+    len_buf[0] = (data_len >> 0)  & 0xFF;
+    len_buf[1] = (data_len >> 8)  & 0xFF;
+    len_buf[2] = (data_len >> 16) & 0xFF;
+    len_buf[3] = (data_len >> 24) & 0xFF;
+
+    ssize_t sent = this->udp_send(len_buf, 4);
+    if (sent != 4) {
+        lq_log_error("Failed to send image length");
+        return -3;
+    }
+
+    // 发送JPEG数据
+    sent = this->udp_send(jpeg_buf.data(), jpeg_buf.size());
+    if (sent != (ssize_t)jpeg_buf.size()) {
+        lq_log_error("Failed to send image data");
+        return -4;
+    }
+
+    return sent;
+}
+#endif
+
+/********************************************************************************
  * @brief   获取UDP套接字文件描述符.
  * @param   none.
  * @return  int, 套接字文件描述符.

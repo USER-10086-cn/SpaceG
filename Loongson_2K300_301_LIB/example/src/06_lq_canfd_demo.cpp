@@ -1,22 +1,29 @@
 #include "lq_all_demo.hpp"
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include <chrono>
+
 // 获取当前时间戳字符串
-static  string GetTimestamp()
+static std::string GetTimestamp()
 {
-    auto now = chrono::system_clock::now();
-    auto ms = chrono::duration_cast<chrono::milliseconds>(now.time_since_epoch()) % 1000;
-    time_t t = chrono::system_clock::to_time_t(now);
+    
+    auto now = std::chrono::system_clock::now();
+    auto ms  = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()) % 1000;
+    time_t t = std::chrono::system_clock::to_time_t(now);
     tm* tm = localtime(&t);
 
-    stringstream ss;
-    ss << put_time(tm, "%Y-%m-%d %H:%M:%S") << "." << setfill('0') << setw(3) << ms.count();
+    std::stringstream ss;
+    ss << std::put_time(tm, "%Y-%m-%d %H:%M:%S") << "." << std::setfill('0') << std::setw(3) << ms.count();
     return ss.str();
 }
 
 // CANFD对象
-LS_CANFD g_can;
+ls_canfd g_can;
 
 // CAN接收回调函数（在独立线程中运行）
-void CAN_RxCallback(const CANFD_Frame_t &frame)
+void CAN_RxCallback(const ls_canfd_frame_t &frame)
 {
     printf("[%s] 收到: CAN ID 0x%03X, 长度 %d, 数据: ", 
            GetTimestamp().c_str(), frame.can_id, frame.len);
@@ -29,7 +36,7 @@ void CAN_RxCallback(const CANFD_Frame_t &frame)
 void lq_canfd_demo(void)
 {
     // 初始化CAN，使用独立线程模式，接收回调函数为CAN_RxCallback
-    if (!g_can.Init(CAN1, CANFD_MODE_THREAD, CAN_RxCallback)) {
+    if (!g_can.canfd_init(CAN1, CANFD_MODE_THREAD, CAN_RxCallback)) {
         printf("CAN初始化失败!\n");
         return;
     }
@@ -44,7 +51,7 @@ void lq_canfd_demo(void)
         
         // 发送数据
         uint8_t tx_data[] = {0xDE, 0xAD, 0xBE, 0xEF, 0x11, 0x22, 0x33, 0x44};
-        g_can.Write(0x123, tx_data, sizeof(tx_data));
+        g_can.canfd_write_data(0x123, tx_data, sizeof(tx_data));
         printf("[%s] 发送数据: CAN ID 0x123, 长度 %zu\n", 
                GetTimestamp().c_str(), sizeof(tx_data));
         

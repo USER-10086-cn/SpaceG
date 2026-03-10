@@ -9,6 +9,11 @@
 #include <memory>
 #include <mutex>
 
+// OpenCV头文件（可选编译）
+#ifdef LQ_HAVE_OPENCV
+    #include <opencv2/opencv.hpp>
+#endif
+
 /****************************************************************************************************
  * @brief   类定义
  ****************************************************************************************************/
@@ -29,6 +34,12 @@ public:
 
     ssize_t udp_send(const void *_buf, size_t _len);    // 发送数据
     ssize_t udp_recv(void *_buf, size_t _len);          // 接收数据
+
+    ssize_t udp_send_string(const std::string &_str);               // 发送字符串
+
+    #ifdef LQ_HAVE_OPENCV
+    ssize_t udp_send_image(const cv::Mat &_img, int _quality = 80); // 发送图片（OpenCV图像，JPEG压缩）
+    #endif
 
     int get_udp_socket_fd() const noexcept;             // 获取UDP套接字文件描述符
 
