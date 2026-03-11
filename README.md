@@ -23,12 +23,10 @@
 
 1. 安装`Ubuntu`或`WSL`并安装`VScode`环境
 2. 下载或克隆库，本链接或购买产品的附赠资料中
-3. 打开软件导入工程。
+3. 打开软件导入工程，参考其他地方的教程手册以及B站相关的视频。
 4. 项目介绍：
    - <font color="red">`LQ_ls2k301_LIB_V2.1.0`</font>是更新后的不带有测试例程的项目工程
-   - <font color="red">`LQ_Test_Demo`</font>是更新后的带有测试例程的项目工程
    - <font color="red">`根据龙邱2k301核心板的引脚资源分配.xlsx`</font>是根据拓展板写的引脚资源分配表格
-   - <font color="red">`MD_Image`</font>是存放的`README.md`中的图片
    - 其他详细教程内容可在B站查看相关教程：[龙邱科技的个人空间-龙邱科技个人主页-哔哩哔哩视频](https://space.bilibili.com/95313236)
 
 

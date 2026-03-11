@@ -48,19 +48,25 @@ endif()
 # 查找 ffmpeg 动态库
 # pkg_check_modules(FFMPEG REQUIRED libavformat libavcodec libavdevice libavutil)
 
+link_directories(
+    ${PROJECT_SOURCE_DIR}/../libraries/drv/src/  # liblqncnn.a 的存放路径
+)
+
 # 由源文件生成一个可执行程序
 add_executable(main ${SRC})
 
-target_include_directories(main PRIVATE 
-    ${OPENCV_INCLUDE_DIRS}  # OpenCV 头文件路径
-    ${NCNN_INCLUDE_DIRS}    # ncnn 头文件路径
+target_include_directories(main PRIVATE
+    ${PROJECT_SOURCE_DIR}/../libraries/drv/inc  # ncnn 头文件路径
+    ${OPENCV_INCLUDE_DIRS}                      # OpenCV 头文件路径
+    ${NCNN_INCLUDE_DIRS}                        # ncnn 头文件路径
     # ${FFMPEG_INCLUDE_DIRS}  # ffmpeg 头文件路径
 )
 
-# 连接动态库
+# 连接库
 target_link_libraries(main PUBLIC
     pthread
+    lqncnn
     ${NCNN_LDFLAGS}
     ${OPENCV_LDFLAGS}
-    ${FFMPEG_LDFLAGS}
+    # ${FFMPEG_LDFLAGS}
 )
