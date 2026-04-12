@@ -1,6 +1,6 @@
 #ifndef MOTOR_H
 #define MOTOR_H
-float get_l_motor_speed();//»ñÈ¡×óµç»úµÄ×ªËÙ
-float get_r_motor_speed();//»ñÈ¡ÓÒµç»úµÄ×ªËÙ
-void set_motor_pwm(float pwm_l,float pwm_r);//ÉèÖÃ×óÓÒµç»úµÄpwmÖµ
+float get_l_motor_speed();//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½
+float get_r_motor_speed();//ï¿½ï¿½È¡ï¿½Òµï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½
+void set_motor_pwm(int pwm_l,int pwm_r);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½pwmÖµ
 #endif

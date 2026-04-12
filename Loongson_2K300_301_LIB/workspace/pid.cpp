@@ -20,7 +20,7 @@ void PID_Controller::setTarget(float t)//�趨Ŀ��ֵ
 //�������������
 float PID_Controller::PID_Calculate(float measured)
 {
-    float error=-(target-measured);
+    float error=(target-measured);
     integral+=error;
 
     if (integral>max_intergal)  integral=max_intergal;
