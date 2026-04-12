@@ -69,6 +69,9 @@ bool lq_camera::open(uint16_t _width, uint16_t _height, uint16_t _fps)
     double actual_width  = this->cap.get(cv::CAP_PROP_FRAME_WIDTH);
     double actual_height = this->cap.get(cv::CAP_PROP_FRAME_HEIGHT);
     double actual_fps    = this->cap.get(cv::CAP_PROP_FPS);
+
+    this->cap.set(cv::CAP_PROP_BUFFERSIZE, 1);
+
     // 获取摄像头图像宽高和帧率
     this->width  = static_cast<uint16_t>(actual_width);
     this->height = static_cast<uint16_t>(actual_height);

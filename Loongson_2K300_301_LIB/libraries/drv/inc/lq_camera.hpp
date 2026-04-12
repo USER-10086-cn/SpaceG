@@ -42,7 +42,15 @@ public:
     std::vector<uint8_t> get_raw_frame_data();      // 获取原始图像数据
     std::vector<uint8_t> get_gray_frame_data();     // 获取灰度图像数据
     std::vector<uint8_t> get_binary_frame_data(double _thresh = 127, double _max = 255);   // 获取二值图像数据
-#endif
+    
+    cv::Mat& get_gray_ref()
+    {
+        std::lock_guard<std::mutex> lock(this->mtx);
+        this->read_new_frame();
+        cv::cvtColor(this->frame, this->gray_frame, cv::COLOR_BGR2GRAY);
+        return this->gray_frame;
+    }
+    #endif
 
     bool is_opened() const;             // 判断摄像头是否已打开
 
