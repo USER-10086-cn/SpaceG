@@ -762,13 +762,11 @@ bool fit_line_range(
 
 void test_ziji(void)
 {
-    ls_gpio gpio1(PIN_72, GPIO_MODE_OUT);
-    ls_gpio gpio2(PIN_73, GPIO_MODE_OUT);
-    gpio1.gpio_level_set(GPIO_HIGH);
-    gpio2.gpio_level_set(GPIO_LOW);
-    PID_Controller vision_pid(20.0f,0.0f,0.0f,100.0f,0.0f);//�⻷λ�û�����pd
-    PID_Controller motor_pid_l(2.0f,0.0f,0.0f,500.0f,1.0f);//�ڻ��ٶȻ�����pid
-    PID_Controller motor_pid_r(2.0f,0.0f,0.0f,500.0f,1.0f);
+    //ls_gpio gpio1(PIN_72, GPIO_MODE_OUT);
+    //ls_gpio gpio2(PIN_73, GPIO_MODE_OUT);
+    PID_Controller vision_pid(40.0f,1.0f,0.0f,450.0f,50.0f);//�⻷λ�û�����pd
+    PID_Controller motor_pid_l(10.0f,0.0f,0.0f,500.0f,1.0f);//�ڻ��ٶȻ�����pid
+    PID_Controller motor_pid_r(10.0f,0.0f,0.0f,500.0f,1.0f);
     printf("=========================================\r\n");
     printf("  UDP Camera + Encoder Stream\r\n");
     printf("=========================================\r\n");
@@ -848,14 +846,14 @@ void test_ziji(void)
 
 
    
-    float based_speed=1000.0;//60תÿ����
-    float MAX_SPEED=1200.0f;
+    float based_speed=400.0;//60תÿ����
+    float MAX_SPEED=900.0f;
 
     float k, b;
     float target_y=20.0f;
     float l,r;//调试用
-    int ld,rd;
-    float lb,rb;
+    int pwml,pwmr;
+    float speedl,speedr;
         if(fit_line_range(
             center_line,
             array_len,
@@ -877,8 +875,8 @@ void test_ziji(void)
             motor_pid_l.setTarget(target_speed_l);
             motor_pid_r.setTarget(target_speed_r);
             //ͨ�����������ʵ���ٶ�
-            float motor_speed_l=get_l_motor_speed() * 100;
-            float motor_speed_r=-get_r_motor_speed() * 100;//调试时加的
+            float motor_speed_l=get_l_motor_speed() * 50;
+            float motor_speed_r=-get_r_motor_speed() * 50;//调试时加的
             //��ȡĿ��pwm
             int motor_pwm_l=(int)motor_pid_l.PID_Calculate(motor_speed_l);
             int motor_pwm_r=(int)motor_pid_r.PID_Calculate(motor_speed_r);
@@ -893,13 +891,14 @@ void test_ziji(void)
             }
 
 
-            set_motor_pwm(motor_pwm_l,motor_pwm_r);
+            //set_motor_pwm(motor_pwm_l,motor_pwm_r);
+            set_motor_pwm((int)target_speed_l,(int)target_speed_r);
             l=target_speed_l;
             r=target_speed_r;
-            ld=motor_pwm_l;
-            rd=motor_pwm_r;
-            lb=motor_speed_l;
-            rb=motor_speed_r;
+            pwml=motor_pwm_l;
+            pwmr=motor_pwm_r;
+            speedl=motor_speed_l;
+            speedr=motor_speed_r;
         }
         
         show_array_image(small_image);
@@ -916,10 +915,10 @@ void test_ziji(void)
             start_time = now;
             printf("l: %.2f\r\n", l);
             printf("r: %.2f\r\n", r);
-            printf("ld: %d\r\n", ld);
-            printf("rd: %d\r\n", rd);
-            printf("lb: %.2f\r\n", lb);
-            printf("rb: %.2f\r\n", rb);
+            printf("pwml: %d\r\n", pwml);
+            printf("pwmr: %d\r\n", pwmr);
+            printf("speedl: %.2f\r\n", speedl);
+            printf("speedr: %.2f\r\n", speedr);
         }
     }
 }

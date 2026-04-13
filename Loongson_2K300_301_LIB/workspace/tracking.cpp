@@ -53,7 +53,7 @@ float img_process(const std::vector<cv::Point>& points)
 }
 
 //λ�û��ٶȻ��ջ������߼�����
-/void Car_contorl_loop(const std::vector<cv::Point>& points)
+void Car_contorl_loop(const std::vector<cv::Point>& points)
 {
     float predicted_x=img_process(points);
     //�򵥶��߱���
