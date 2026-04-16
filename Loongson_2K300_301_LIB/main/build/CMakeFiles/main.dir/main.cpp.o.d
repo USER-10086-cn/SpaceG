@@ -518,4 +518,8 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/gyro/lq_i2c_icm42688.hpp \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/gyro/lq_i2c_lsm6dsr.hpp \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/lq_i2c_vl53l0x.hpp \
- /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../example/inc/lq_all_demo.hpp
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../example/inc/lq_all_demo.hpp \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/all.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/tracking.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/motor.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/pid.h

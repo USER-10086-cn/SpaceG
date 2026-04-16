@@ -15,4 +15,5 @@
 // 包含所有测试程序头文件
 #include "lq_all_demo.hpp"
 
+#include "all.h"
 #endif

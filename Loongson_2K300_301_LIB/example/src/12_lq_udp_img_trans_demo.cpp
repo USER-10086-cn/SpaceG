@@ -16,8 +16,8 @@ const std::string TARGET_IP    = "192.168.86.126";
 // UDP目标端口
 const uint16_t    TARGET_PORT  = 8080;
 // 摄像头参数
-const uint16_t    CAM_WIDTH    = 80;     // 宽
-const uint16_t    CAM_HEIGHT   = 60;     // 高
+const uint16_t    CAM_WIDTH    = 160;     // 宽
+const uint16_t    CAM_HEIGHT   = 120;     // 高
 const uint16_t    CAM_FPS      = 30;     // 帧率
 // 方块参数（画面中间）
 const uint16_t    RECT_SIZE    = 20;
@@ -50,10 +50,10 @@ void get_gray_fast(lq_camera& cam, uchar (*out_image)[CAM_WIDTH])
 
 
 
-void show_array_image(uchar img[60][80])
+void show_array_image(uchar img[][CAM_WIDTH])
 {
     // 1. 把二维数组转成 OpenCV 的 Mat
-    cv::Mat mat(60, 80, CV_8UC1, img);
+    cv::Mat mat(CAM_HEIGHT, CAM_WIDTH, CV_8UC1, img);
     ssize_t sent = udp_client.udp_send_image(mat, JPEG_QUALITY);
     if (sent < 0) {
         printf("ERROR: Failed to send image\r\n");
@@ -64,12 +64,12 @@ void show_array_image(uchar img[60][80])
 
 
 
-#define IMAGE_H 60
-#define IMAGE_W 80
+#define IMAGE_H 120
+#define IMAGE_W 160
 #define threshold_max  (255*5)  // 补断线阈值
 #define threshold_min  (255*2)  // 去噪点阈值
-#define border_min  5    // 左边不要太靠边
-#define border_max  75   // 右边不要太靠边
+#define border_min  10    // 左边不要太靠边
+#define border_max  150   // 右边不要太靠边
 uchar flag_yuanhuan=0;
 uchar flag_shizi=0;
 
@@ -764,7 +764,7 @@ void test_ziji(void)
 {
     //ls_gpio gpio1(PIN_72, GPIO_MODE_OUT);
     //ls_gpio gpio2(PIN_73, GPIO_MODE_OUT);
-    PID_Controller vision_pid(40.0f,1.0f,0.0f,450.0f,50.0f);//�⻷λ�û�����pd
+    PID_Controller vision_pid(40.0f,5.0f,0.0f,900.0f,100.0f);//�⻷λ�û�����pd
     PID_Controller motor_pid_l(10.0f,0.0f,0.0f,500.0f,1.0f);//�ڻ��ٶȻ�����pid
     PID_Controller motor_pid_r(10.0f,0.0f,0.0f,500.0f,1.0f);
     printf("=========================================\r\n");
@@ -801,7 +801,7 @@ void test_ziji(void)
         // ===================== 获取并发送图像 =====================
         // 获取原始图像
         cv::Mat gray_p;
-        uchar small_image[60][80];
+        uchar small_image[IMAGE_H][IMAGE_W];
         get_gray_fast(cam,small_image);
 
         uchar YUZHI=otsu_binary0(small_image);//更新阈值
@@ -846,11 +846,11 @@ void test_ziji(void)
 
 
    
-    float based_speed=400.0;//60תÿ����
-    float MAX_SPEED=900.0f;
+    float based_speed=800.0;//60תÿ����
+    float MAX_SPEED=1800.0f;
 
     float k, b;
-    float target_y=20.0f;
+    float target_y=40.0f;
     float l,r;//调试用
     int pwml,pwmr;
     float speedl,speedr;
@@ -858,13 +858,13 @@ void test_ziji(void)
             center_line,
             array_len,
             threshold,    // 阈值
-            10, 40,       // 你想取的区间 start ~ end
+            20, 80,       // 你想取的区间 start ~ end
             &k, &b
         ))
     
         {
             float predicted_x=k * target_y + b ;
-            vision_pid.setTarget(40.0f);//Ŀ��x����
+            vision_pid.setTarget(80.0f);//Ŀ��x����
             float turn_output=-vision_pid.PID_Calculate(predicted_x);//Ԥ��x���꣬�����pd�����µ������
             float target_speed_l=based_speed + turn_output;
             float target_speed_r=based_speed - turn_output;
