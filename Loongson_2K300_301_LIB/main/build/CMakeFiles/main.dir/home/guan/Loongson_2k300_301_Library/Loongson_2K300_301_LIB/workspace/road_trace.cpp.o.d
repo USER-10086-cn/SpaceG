@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o: \
- /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp \
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o: \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp \
  /opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/loongarch64-linux-gnu/sysroot/usr/include/stdc-predef.h \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../example/inc/lq_all_demo.hpp \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/drv/inc/lq_drv_inc.hpp \
@@ -517,4 +517,13 @@ CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/common/inc/lq_i2c_dev.hpp \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/gyro/lq_i2c_icm42688.hpp \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/gyro/lq_i2c_lsm6dsr.hpp \
- /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/lq_i2c_vl53l0x.hpp
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/app/lq_i2c_vl53l0x.hpp \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../libraries/drv/inc/lq_udp_client.hpp \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/all.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.hpp \
+ /opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/lib/gcc/loongarch64-linux-gnu/8.3.0/include/stdbool.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.hpp \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.hpp

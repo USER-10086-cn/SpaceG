@@ -16,7 +16,7 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/../libraries/common/src SRC)
 aux_source_directory(${PROJECT_SOURCE_DIR}/../libraries/drv/src SRC)
 
 # 🔥 把有问题的 UDP demo 暂时关掉，先让主程序跑起来
- aux_source_directory(${PROJECT_SOURCE_DIR}/../example/src SRC)
+ # aux_source_directory(${PROJECT_SOURCE_DIR}/../example/src SRC)
  aux_source_directory(${PROJECT_SOURCE_DIR}/../workspace/ SRC) #new
 
 include_directories(

@@ -129,342 +129,6 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.o
-
-# target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.i
-
-# target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i
-
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.s
-
-# target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s
-
 home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/app/display/lq_display_ips20.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/app/display/lq_display_ips20.cpp.o
 .PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/app/display/lq_display_ips20.o
 
@@ -1089,6 +753,30 @@ home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp.s
 .PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp.s
 
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.o
+
+# target to build an object file
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o
+
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.i
+
+# target to preprocess a source file
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i
+
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.s
+
+# target to generate assembly for a file
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s
+
 home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o
 .PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.o
 
@@ -1137,29 +825,53 @@ home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.s
 .PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.s
 
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.o
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.o
 
 # target to build an object file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o
 
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.i
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.i
 
 # target to preprocess a source file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i
 
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.s
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.s
 
 # target to generate assembly for a file
-home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s
-.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s
+
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.o: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.o
+
+# target to build an object file
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o
+
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.i: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.i
+
+# target to preprocess a source file
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i
+
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.s: home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.s
+
+# target to generate assembly for a file
+home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s
+.PHONY : home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -1194,48 +906,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.s"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/app/display/lq_display_ips20.o"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/app/display/lq_display_ips20.i"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/app/display/lq_display_ips20.s"
@@ -1314,15 +984,21 @@ help:
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.o"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.i"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.s"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.o"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.i"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.s"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.o"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.i"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.s"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.o"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.i"
 	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.s"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.o"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.i"
-	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.s"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.o"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.i"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.s"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.o"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.i"
+	@echo "... home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

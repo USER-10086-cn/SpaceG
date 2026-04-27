@@ -447,206 +447,24 @@ CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp.s"
 	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp.s
 
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp
 
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.i
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.i
 
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.s
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.i
-
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.s
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.s
 
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o"
 	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp
 
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.i: cmake_force
@@ -660,7 +478,7 @@ CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o"
 	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp
 
 CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.i: cmake_force
@@ -671,19 +489,33 @@ CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.s"
 	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.s
 
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp
 
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.i
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.i
 
-CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.s
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.s
+
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o: /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o -MF CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o.d -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o -c /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp
+
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp > CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.i
+
+CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp -o CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -714,23 +546,11 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_timer.cpp.o" \
 "CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_uart.cpp.o" \
 "CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o" \
+"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o" \
 "CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o" \
 "CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o" \
-"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o"
+"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o" \
+"CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -762,26 +582,14 @@ main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_30
 main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_timer.cpp.o
 main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_uart.cpp.o
 main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/libraries/drv/src/lq_udp_client.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/01_lq_gpio_basic_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/02_lq_pwm_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/03_lq_gtim_pwm_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/04_lq_atim_pwm_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/05_lq_encoder_pwm_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/06_lq_canfd_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/07_lq_ncnn_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/08_lq_ips20_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/09_lq_mpu6050_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/10_lq_lsm6dsr_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/11_lq_vl53l0x_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/12_lq_udp_img_trans_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/13_lq_udp_wavefrom_demo.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/example/src/14_lq_icm42688_demo.cpp.o
+main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/fsm.cpp.o
 main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/motor.cpp.o
 main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/pid.cpp.o
-main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/tracking.cpp.o
+main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/queue.cpp.o
+main: CMakeFiles/main.dir/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/workspace/road_trace.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

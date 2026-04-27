@@ -522,4 +522,8 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/all.h \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/tracking.h \
  /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/motor.h \
- /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/pid.h
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/pid.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/queue.hpp \
+ /opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/lib/gcc/loongarch64-linux-gnu/8.3.0/include/stdbool.h \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/fsm.hpp \
+ /home/guan/Loongson_2k300_301_Library/Loongson_2K300_301_LIB/main/../workspace/road_trace.hpp
