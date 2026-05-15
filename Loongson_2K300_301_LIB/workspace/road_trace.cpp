@@ -8,12 +8,12 @@
 int stop_flag = 0;
 // 🔥🔥🔥 定义全局 UDP 客户端（你缺失的关键！）
 // 把 192.168.xxx.xxx 换成你接收端电脑的真实IP
-lq_udp_client udp_client("192.168.37.126", 8080);
+lq_udp_client udp_client("192.168.104.126", 8080);
 // =====================================================
 // 配置参数 - 根据需要修改
 // =====================================================
 // 目标IP地址（UDP接收端）
-const std::string TARGET_IP    = "192.168.37.126";
+const std::string TARGET_IP    = "192.168.104.126";
 // UDP目标端口
 const uint16_t    TARGET_PORT  = 8080;
 // 摄像头参数
@@ -693,11 +693,18 @@ bool fit_line_range(
 // ==============================
 // 1. 初始化：PID / 摄像头 / UDP
 // ==============================
-PID_Controller vision_pid(40.0f, 5.0f, 0.0f, 900.0f, 100.0f);
-PID_Controller motor_pid_l(10.0f, 0.0f, 0.0f, 500.0f, 1.0f);
-PID_Controller motor_pid_r(10.0f, 0.0f, 0.0f, 500.0f, 1.0f);
-lq_camera *cam_ptr;
 
+PID_Controller vision_pid(0.17f, 0.0f, 0.15f,2.7f, 0.0f);
+PID_Controller motor_pid_l(20.0f, 0.0f, 0.0f, 3000.0f, 1.0f);
+PID_Controller motor_pid_r(20.0f, 0.0f, 0.0f, 3000.0f, 1.0f);
+
+
+
+
+
+lq_camera *cam_ptr;
+lq_i2c_mpu6050 mpu6050;
+int16_t ax, ay, az, gx, gy, gz;
 void vision_init(void)
 {
     
@@ -762,6 +769,95 @@ void vision_process_image(void)
 }
 
 // ==============================
+// 元素判断（调试用）
+// 功能：判断是否出现了对应元素
+// ==============================
+uint16_t element_judge(void)
+{
+    uint8_t zhijiaoy1=0,zhijiaoy2=0;
+    uint16_t temp=0;
+    uint8_t flag_element=0;//1是十字，2是左圆环，3是右圆环，4是终点线
+    uint16_t instance=40;
+    for(int i=20;i<data_stastics_l;i++)
+    {
+        if(dir_l[i-1]==4 &  dir_l[i]==4  &dir_l[i-3]==2 & dir_l[i-4]==2 & small_image[IMAGE_H-5][0+5]==0)//左有直角弯，且左下角为黑色
+        {
+            zhijiaoy1=points_l[i][1];
+        }
+
+        if((small_image[0+5][0+5]==255))//左上角点为白色（要进的岔路）
+        {
+            if((dir_l[i-20]==4 & dir_l[i-19]==4 &dir_l[i-18]==4))//下面是岔路
+            {
+                if(i+7+instance<=data_stastics_l)//防止越界
+                {
+                    if((dir_l[i-3+instance]==5 &  dir_l[i-2+instance]==5 ) &dir_l[i+2+instance]==4 & (dir_l[i+6+instance]==3 & dir_l[i+7+instance]==3))//有凹处
+                    {
+                        flag_element=2;//zuo yuanhuan
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    for(int i=20;i<data_stastics_r;i++)
+    {
+        if(dir_r[i-1]==4 &  dir_r[i]==4  &dir_r[i-3]==2 & dir_r[i-4]==2 & small_image[IMAGE_H-5][IMAGE_W-5]==0)//左有直角弯，且左下角为黑色
+        {
+            zhijiaoy2=points_r[i][1];
+        }
+
+        
+        if((small_image[0+5][IMAGE_W-5]==255))//右上角点为白色（要进的岔路）
+        {
+            if((dir_r[i-20]==4 & dir_r[i-19]==4 &dir_r[i-18]==4))//下面是岔路
+            {
+                if(i+7+instance<=data_stastics_r)//防止越界
+                {
+                    if((dir_r[i-3+instance]==5 &  dir_r[i-2+instance]==5 ) &dir_r[i+2+instance]==4 & (dir_r[i+6+instance]==3 & dir_r[i+7+instance]==3))//有凹处
+                    {
+                        flag_element=3;//you yuanhuan
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    if(zhijiaoy1 & zhijiaoy2)
+    {
+        if(zhijiaoy1>zhijiaoy2)
+        {
+            temp=zhijiaoy1-zhijiaoy2;
+        }
+        else
+        {
+            temp=zhijiaoy2-zhijiaoy1;
+        }
+        if(temp<=10)
+        {
+            flag_element=1;//shizi
+        }
+    }
+    uint8_t count_WB=0; //记录一行的白到黑跳变
+    for(int i=20;i<IMAGE_W/2;i++)
+    {
+        if(small_image[IMAGE_H/2][i]-small_image[IMAGE_H/2][i-1]==255)
+        {
+            count_WB++;
+        }
+    }
+    if(count_WB>=3)
+    {
+        flag_element=4;//stop
+    }
+    return flag_element;
+}
+
+
+
+// ==============================
 // 3. 状态1：默认巡线（画中线 + 显示 + 控制）
 // ==============================
 float l = 0, r = 0;
@@ -771,8 +867,13 @@ float speedl = 0, speedr = 0;
 static uint32_t frame_count = 0;
 static auto start_time = std::chrono::high_resolution_clock::now();
 
+float based_speed = 1.1;
+
+
 void vision_follow_center_line(void)
 {
+    static uint8_t  send_cntX  = 0;   // 50ms 发数
+    
     // 必须等预处理完成
     if (!img_preprocessed) return;
 
@@ -780,9 +881,9 @@ void vision_follow_center_line(void)
     for (uint16_t i = hightest; i < IMAGE_H - 1; i++)
     {
         center_line[i] = (l_border[i] + r_border[i]) / 2;
-        small_image[i][l_border[i]] = 180;
-        small_image[i][r_border[i]] = 80;
-        small_image[i][center_line[i]] = 0;
+        //small_image[i][l_border[i]] = 180;
+       // small_image[i][r_border[i]] = 80;
+        //small_image[i][center_line[i]] = 0;
     }
 
     // ===================== 显示图像（你要求放到这里） =====================
@@ -793,42 +894,46 @@ void vision_follow_center_line(void)
     int array_len = sizeof(center_line) / sizeof(center_line[0]);
     int threshold = 50;
     float k, b;
-    float target_y = 40.0f;
-    const float based_speed = 800.0f;
-    const float MAX_SPEED = 1800.0f;
+    float target_y = 50.0f;
+    const float MAX_SPEED = 1.4;
 
     if (fit_line_range(center_line, array_len, threshold, 20, 80, &k, &b))
     {
         float predicted_x = k * target_y + b;
         vision_pid.setTarget(80.0f);
         float turn_output = -vision_pid.PID_Calculate(predicted_x);
-
+        //float based_speed_auto=(160-hightest)/160.0*based_speed;
         float target_speed_l = based_speed + turn_output;
-        float target_speed_r = based_speed - turn_output;
+        float target_speed_r = based_speed- turn_output;
 
         if (target_speed_l > MAX_SPEED) target_speed_l = MAX_SPEED;
         if (target_speed_r > MAX_SPEED) target_speed_r = MAX_SPEED;
 
-        motor_pid_l.setTarget(target_speed_l);
-        motor_pid_r.setTarget(target_speed_r);
+        motor_pid_l.setTarget(target_speed_l*1250);
+        motor_pid_r.setTarget(target_speed_r*1250);
 
-        float motor_speed_l = get_l_motor_speed() * 50;
-        float motor_speed_r = -get_r_motor_speed() * 50;
+        float motor_speed_l = get_l_motor_speed() ;
+        float motor_speed_r = -get_r_motor_speed() ;
 
-        int motor_pwm_l = (int)motor_pid_l.PID_Calculate(motor_speed_l);
-        int motor_pwm_r = (int)motor_pid_r.PID_Calculate(motor_speed_r);
+        int motor_pwm_l = (int)motor_pid_l.PID_Calculate(motor_speed_l*1250);
+        int motor_pwm_r = (int)motor_pid_r.PID_Calculate(motor_speed_r*1250);
 
-        if (motor_pwm_l < 0) motor_pwm_l = -motor_pwm_l;
-        if (motor_pwm_r < 0) motor_pwm_r = -motor_pwm_r;
+        set_motor_pwm(motor_pwm_l,motor_pwm_r);
 
-        set_motor_pwm((int)target_speed_l, (int)target_speed_r);
+        send_cntX++;
+        if (send_cntX >= 10)
+        {
+            send_cntX = 0;
+            vofa_send_data(80,predicted_x);
+        }
+         l = target_speed_l;
+         //r = target_speed_r;
+         pwml = motor_pwm_l;
+        // pwmr = motor_pwm_r;
+         speedl = motor_speed_l;
+         //speedr = motor_speed_r;
 
-        l = target_speed_l;
-        r = target_speed_r;
-        pwml = motor_pwm_l;
-        pwmr = motor_pwm_r;
-        speedl = motor_speed_l;
-        speedr = motor_speed_r;
+         
     }
 
     // ===================== 调试输出 =====================
@@ -838,8 +943,11 @@ void vision_follow_center_line(void)
     img_preprocessed = false;
     if (elapsed >= 1) {
         float fps = (float)frame_count / elapsed;
-        printf("FPS: %.2f | l:%.2f | r:%.2f | pwml:%d | pwmr:%d \r\n",
-               fps, l, r, pwml, pwmr);
+        //printf("FPS: %.2f | l:%.2f | r:%.2f | pwml:%d | pwmr:%d \r\n",
+          //     fps, l, r, pwml, pwmr);
+          printf("FPS:%.2f\r\n",fps);
+          printf("turnangleV:%.2f,%.2f,%.2f\r\n",speedl,pwmr,l);
+          printf("GX:%.2f\r\n",gx*0.001065);//左正右负
         frame_count = 0;
         start_time = now;
     }
@@ -860,4 +968,81 @@ void print_camera(void)
         printf("%d",2);
     }
     img_preprocessed = false;
+}
+
+
+
+const float speed_add_step = 0.4f;   // 每500ms加多少
+const float max_speed = 0.4;     // 加到这个值就清零
+const float start_speed = 0.4f;    // 清零后回到这个初始速度
+void pid_motor_control(void)
+{
+    static uint8_t  send_cnt  = 0;   // 50ms 发数
+    static uint16_t speed_cnt = 0;   // 500ms 加速
+    img_preprocessed = false;
+    // ===================== 500ms 自动加速 + 到顶清零 =====================
+    speed_cnt++;
+   
+    if (speed_cnt >= 200)  // 5ms*400 = 2000ms = 2秒 加/减一次
+    {
+    speed_cnt = 0;
+
+    // 方向：1=加速，-1=减速
+    static int dir = 1;
+
+    // 速度变化
+    based_speed += dir * speed_add_step;
+
+    // 到上限 → 开始减速
+    if (based_speed >= max_speed)
+    {
+        dir = -1;
+        based_speed = max_speed; // 防止超调
+    }
+
+    // 到下限 → 开始加速
+    if (based_speed <= start_speed)
+    {
+        dir = 1;
+        based_speed = start_speed;
+    }
+    }
+
+    // ===================== 电机PID速度闭环 =====================
+    float target_l = based_speed;
+    float target_r = based_speed;
+
+    motor_pid_l.setTarget(target_l*1250);
+    motor_pid_r.setTarget(target_r*1250);
+
+    float speed_l = get_l_motor_speed() ;
+    float speed_r = -get_r_motor_speed() ;
+
+    int pwm_l = (int)motor_pid_l.PID_Calculate(speed_l*1250);
+    int pwm_r = (int)motor_pid_r.PID_Calculate(speed_r*1250);
+
+    set_motor_pwm(pwm_l, pwm_r);
+
+    // ===================== 50ms 发送一次数据 =====================
+    send_cnt++;
+    if (send_cnt >= 10)
+    {
+        send_cnt = 0;
+        vofa_send_data(target_l, speed_l);
+    }
+
+}
+
+
+
+void tuchuan(void)
+{
+    uchar small_image1[CAM_HEIGHT][CAM_WIDTH];
+    get_gray_fast(*cam_ptr, small_image1);
+    uchar YUZHI = otsu_binary0(small_image1);
+    otsu_binary(small_image1, YUZHI);
+    image_filter(small_image1);
+    image_draw_rectan(small_image1);
+    show_array_image(small_image1);
+
 }

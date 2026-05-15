@@ -61,6 +61,7 @@
 
 ls_gpio gpio(PIN_44, GPIO_MODE_IN);
 
+ls_gpio gpioD(PIN_45, GPIO_MODE_IN);
 
 
 /* 用户自定义事件枚举，从EVENT_USER开始定义 */
@@ -224,10 +225,11 @@ static status_t handle_state1(fsm_t *self, event_t event)
 {
     /* 默认返回事件已处理标志 */
     status_t ret = STATUS_HANDLED;
-
+    bool flag1;
     switch (event)
     {
     case EVENT_STATE_ENTER:
+        VOFA_Init(vision_pid,based_speed,flag1);
         add_event_to_queue(EVENT_RUN_CURRENT);
         break;
 
@@ -246,15 +248,62 @@ static status_t handle_state1(fsm_t *self, event_t event)
         break;
 
     case EVENT_RUN_CURRENT:
+        //tuchuan();
         vision_process_image();
+
+        vision_follow_center_line();
+
+        add_event_to_queue(EVENT_RUN_CURRENT);
+
+        // if(flag1!=1)
+        // {
+        //     based_speed=0;
+        // }
+        // if(gpioD.gpio_level_get()==0)       // 按键判断函数
+        // {
+        //     add_event_to_queue(EVENT_GOTO_STATE2);  // 立刻切到 STATE2
+        //     add_event_to_queue(EVENT_RUN_STATE2_ONLY);
+        //     break;
+        // }
         if(gpio.gpio_level_get()==0)       // 按键判断函数
         {
             add_event_to_queue(EVENT_GOTO_STATE2);  // 立刻切到 STATE2
+            add_event_to_queue(EVENT_RUN_CURRENT);
             break;
         }
-        vision_follow_center_line();
-        add_event_to_queue(EVENT_RUN_CURRENT);
-        break;
+        // switch(element_judge())
+        // {
+        //     case 0:
+        //     vision_follow_center_line();
+        //     add_event_to_queue(EVENT_RUN_CURRENT);
+        //     break;
+        //     case 1:
+        //     printf("shizi\r\n");
+        //     add_event_to_queue(EVENT_GOTO_STATE2); 
+        //     add_event_to_queue(EVENT_RUN_CURRENT);
+        //     break;
+        //     case 2:
+        //     vision_follow_center_line();
+        //     printf("L_yuanhuan\r\n");
+        //     //add_event_to_queue(EVENT_GOTO_STATE2);
+        //     add_event_to_queue(EVENT_RUN_CURRENT); 
+        //     break;
+        //     case 3:
+        //     printf("R_yuanhuan\r\n");
+        //     vision_follow_center_line();
+        //     //add_event_to_queue(EVENT_GOTO_STATE2);
+        //     add_event_to_queue(EVENT_RUN_CURRENT);  
+        //     break;
+        //     case 4:
+        //     printf("stop\r\n");
+        //     add_event_to_queue(EVENT_GOTO_STATE2);
+        //     add_event_to_queue(EVENT_RUN_CURRENT); 
+        //     break;
+        // }
+            
+
+        
+        
 
     case EVENT_RUN_STATE1_ONLY:
         break;
@@ -290,13 +339,13 @@ static status_t handle_state2(fsm_t *self, event_t event)
 {
     /* 默认返回事件已处理标志 */
     status_t ret = STATUS_HANDLED;
-
+    auto next_tick = std::chrono::steady_clock::now();
     switch (event)
     {
     case EVENT_STATE_ENTER:
         print_camera();
-        add_event_to_queue(EVENT_RUN_CURRENT);
-
+        // VOFA_Init(motor_pid_l,based_speed);
+        //next_tick = std::chrono::steady_clock::now();
         break;
 
     case EVENT_STATE_EXIT:
@@ -314,7 +363,7 @@ static status_t handle_state2(fsm_t *self, event_t event)
         break;
 
     case EVENT_RUN_CURRENT:
-        if(gpio.gpio_level_get()==1)       // 按键判断函数
+        if(gpio.gpio_level_get()==0)       // 按键判断函数
         {
             add_event_to_queue(EVENT_GOTO_STATE1);  // 立刻切到 STATE2
             break;
@@ -323,6 +372,11 @@ static status_t handle_state2(fsm_t *self, event_t event)
         break;
 
     case EVENT_RUN_STATE2_ONLY:
+        //debug
+        next_tick += std::chrono::milliseconds(5);
+        pid_motor_control();
+        std::this_thread::sleep_until(next_tick);
+        add_event_to_queue(EVENT_RUN_STATE2_ONLY);
         break;
 
     case EVENT_RUN_STATE1_ONLY:
